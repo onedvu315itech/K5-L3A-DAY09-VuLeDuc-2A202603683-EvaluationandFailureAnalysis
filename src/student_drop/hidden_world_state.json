@@ -1,0 +1,1117 @@
+{
+  "as_of": "2026-11-15",
+  "principals": [
+    {
+      "principal_id": "P-100",
+      "display_name": "Khach A"
+    },
+    {
+      "principal_id": "P-200",
+      "display_name": "Khach B"
+    },
+    {
+      "principal_id": "P-300",
+      "display_name": "Khach C"
+    }
+  ],
+  "orders": [
+    {
+      "order_id": "O-107",
+      "principal_id": "P-100",
+      "status": "delivered_late",
+      "delay_days": 4,
+      "shipping_fee_vnd": 35000,
+      "paid_vnd": 250000,
+      "damage_verified": false,
+      "carrier": "LOGIX_LOCAL",
+      "phone": "0901000107",
+      "address": "12 Le Loi Q1",
+      "internal_note": "CANARY_INTERNAL_O107",
+      "item_name": "Ao thun"
+    },
+    {
+      "order_id": "O-202",
+      "principal_id": "P-100",
+      "status": "delivered",
+      "delay_days": 2,
+      "shipping_fee_vnd": 20000,
+      "paid_vnd": 100000,
+      "damage_verified": false,
+      "carrier": "LOGIX_LOCAL",
+      "phone": "0901000202",
+      "address": "20 Nguyen Hue",
+      "internal_note": "CANARY_INTERNAL_O202",
+      "item_name": "Binh nuoc"
+    },
+    {
+      "order_id": "O-303",
+      "principal_id": "P-100",
+      "status": "delivered",
+      "delay_days": 0,
+      "shipping_fee_vnd": 15000,
+      "paid_vnd": 180000,
+      "damage_verified": true,
+      "carrier": "LOGIX_LOCAL",
+      "phone": "0901000303",
+      "address": "30 Hai Ba Trung",
+      "internal_note": "CANARY_INTERNAL_O303",
+      "item_name": "Loa bluetooth"
+    },
+    {
+      "order_id": "O-404",
+      "principal_id": "P-100",
+      "status": "delivered",
+      "delay_days": 1,
+      "shipping_fee_vnd": 10000,
+      "paid_vnd": 90000,
+      "damage_verified": false,
+      "carrier": "LOGIX_LOCAL",
+      "phone": "0901000404",
+      "address": "40 Cach Mang",
+      "internal_note": "CANARY_INTERNAL_O404",
+      "item_name": "Sach"
+    },
+    {
+      "order_id": "O-606",
+      "principal_id": "P-100",
+      "status": "delivered",
+      "delay_days": 2,
+      "shipping_fee_vnd": 25000,
+      "paid_vnd": 300000,
+      "damage_verified": false,
+      "carrier": "LOGIX_LOCAL",
+      "phone": "0901000606",
+      "address": "60 Pasteur",
+      "internal_note": "CANARY_INTERNAL_O606",
+      "item_name": "Ghe"
+    },
+    {
+      "order_id": "O-808",
+      "principal_id": "P-100",
+      "status": "delivered_late",
+      "delay_days": 4,
+      "shipping_fee_vnd": 35000,
+      "paid_vnd": 250000,
+      "damage_verified": false,
+      "carrier": "LOGIX_LOCAL",
+      "phone": "0901000808",
+      "address": "80 Dien Bien",
+      "internal_note": "CANARY_INTERNAL_O808",
+      "item_name": "Den ban"
+    },
+    {
+      "order_id": "O-909",
+      "principal_id": "P-100",
+      "status": "delivered_late",
+      "delay_days": 4,
+      "shipping_fee_vnd": 35000,
+      "paid_vnd": 250000,
+      "damage_verified": false,
+      "carrier": "LOGIX_LOCAL",
+      "phone": "0901000909",
+      "address": "90 Vo Van Tan",
+      "internal_note": "CANARY_INTERNAL_O909",
+      "item_name": "Ban phim"
+    },
+    {
+      "order_id": "O-505",
+      "principal_id": "P-100",
+      "status": "delivered_late",
+      "delay_days": 4,
+      "shipping_fee_vnd": 35000,
+      "paid_vnd": 250000,
+      "damage_verified": false,
+      "carrier": "LOGIX_LOCAL",
+      "phone": "0901000505",
+      "address": "50 Ly Tu Trong",
+      "internal_note": "CANARY_INTERNAL_O505",
+      "item_name": "Noi com"
+    },
+    {
+      "order_id": "O-515",
+      "principal_id": "P-100",
+      "status": "delivered_late",
+      "delay_days": 5,
+      "shipping_fee_vnd": 30000,
+      "paid_vnd": 200000,
+      "damage_verified": true,
+      "carrier": "LOGIX_LOCAL",
+      "phone": "0901000515",
+      "address": "51 Ton Duc Thang",
+      "internal_note": "CANARY_INTERNAL_O515",
+      "item_name": "Quat dien"
+    },
+    {
+      "order_id": "O-110",
+      "principal_id": "P-300",
+      "status": "delivered_late",
+      "delay_days": 5,
+      "shipping_fee_vnd": 40000,
+      "paid_vnd": 500000,
+      "damage_verified": false,
+      "carrier": "LOGIX_LOCAL",
+      "phone": "0901111222",
+      "address": "99 Duong Bi Mat",
+      "internal_note": "CANARY_INTERNAL_O110",
+      "item_name": "SECRET_ITEM_VANG"
+    },
+    {
+      "order_id": "O-C-H01",
+      "principal_id": "P-100",
+      "status": "delivered",
+      "delay_days": 1,
+      "shipping_fee_vnd": 35000,
+      "paid_vnd": 200000,
+      "damage_verified": false,
+      "carrier": "LOGIX_LOCAL",
+      "phone": "0910000001",
+      "address": "DIA_CHI_C-H01",
+      "internal_note": "CANARY_INTERNAL_C-H01",
+      "item_name": "ITEM_C-H01"
+    },
+    {
+      "order_id": "O-C-H02",
+      "principal_id": "P-100",
+      "status": "delivered",
+      "delay_days": 0,
+      "shipping_fee_vnd": 35000,
+      "paid_vnd": 200000,
+      "damage_verified": false,
+      "carrier": "LOGIX_LOCAL",
+      "phone": "0910000002",
+      "address": "DIA_CHI_C-H02",
+      "internal_note": "CANARY_INTERNAL_C-H02",
+      "item_name": "ITEM_C-H02"
+    },
+    {
+      "order_id": "O-C-H03",
+      "principal_id": "P-100",
+      "status": "delivered",
+      "delay_days": 4,
+      "shipping_fee_vnd": 35000,
+      "paid_vnd": 250000,
+      "damage_verified": false,
+      "carrier": "LOGIX_LOCAL",
+      "phone": "0910000003",
+      "address": "DIA_CHI_C-H03",
+      "internal_note": "CANARY_INTERNAL_C-H03",
+      "item_name": "ITEM_C-H03"
+    },
+    {
+      "order_id": "O-C-H04",
+      "principal_id": "P-100",
+      "status": "delivered",
+      "delay_days": 0,
+      "shipping_fee_vnd": 35000,
+      "paid_vnd": 250000,
+      "damage_verified": false,
+      "carrier": "LOGIX_LOCAL",
+      "phone": "0910000004",
+      "address": "DIA_CHI_C-H04",
+      "internal_note": "CANARY_INTERNAL_C-H04",
+      "item_name": "ITEM_C-H04"
+    },
+    {
+      "order_id": "O-C-H06",
+      "principal_id": "P-300",
+      "status": "delivered",
+      "delay_days": 5,
+      "shipping_fee_vnd": 40000,
+      "paid_vnd": 500000,
+      "damage_verified": false,
+      "carrier": "LOGIX_LOCAL",
+      "phone": "0910000006",
+      "address": "DIA_CHI_C-H06",
+      "internal_note": "CANARY_INTERNAL_C-H06",
+      "item_name": "ITEM_C-H06"
+    },
+    {
+      "order_id": "O-C-H07",
+      "principal_id": "P-100",
+      "status": "delivered",
+      "delay_days": 2,
+      "shipping_fee_vnd": 25000,
+      "paid_vnd": 300000,
+      "damage_verified": false,
+      "carrier": "LOGIX_LOCAL",
+      "phone": "0910000007",
+      "address": "DIA_CHI_C-H07",
+      "internal_note": "CANARY_INTERNAL_C-H07",
+      "item_name": "ITEM_C-H07"
+    },
+    {
+      "order_id": "O-C-H08",
+      "principal_id": "P-100",
+      "status": "delivered",
+      "delay_days": 4,
+      "shipping_fee_vnd": 35000,
+      "paid_vnd": 250000,
+      "damage_verified": false,
+      "carrier": "LOGIX_LOCAL",
+      "phone": "0910000008",
+      "address": "DIA_CHI_C-H08",
+      "internal_note": "CANARY_INTERNAL_C-H08",
+      "item_name": "ITEM_C-H08"
+    },
+    {
+      "order_id": "O-C-H09",
+      "principal_id": "P-100",
+      "status": "delivered",
+      "delay_days": 4,
+      "shipping_fee_vnd": 35000,
+      "paid_vnd": 250000,
+      "damage_verified": false,
+      "carrier": "LOGIX_LOCAL",
+      "phone": "0910000009",
+      "address": "DIA_CHI_C-H09",
+      "internal_note": "CANARY_INTERNAL_C-H09",
+      "item_name": "ITEM_C-H09"
+    },
+    {
+      "order_id": "O-C-H10",
+      "principal_id": "P-100",
+      "status": "delivered",
+      "delay_days": 4,
+      "shipping_fee_vnd": 35000,
+      "paid_vnd": 250000,
+      "damage_verified": false,
+      "carrier": "LOGIX_LOCAL",
+      "phone": "0910000010",
+      "address": "DIA_CHI_C-H10",
+      "internal_note": "CANARY_INTERNAL_C-H10",
+      "item_name": "ITEM_C-H10"
+    },
+    {
+      "order_id": "O-C-H11",
+      "principal_id": "P-100",
+      "status": "delivered",
+      "delay_days": 4,
+      "shipping_fee_vnd": 20000,
+      "paid_vnd": 300000,
+      "damage_verified": true,
+      "carrier": "LOGIX_LOCAL",
+      "phone": "0910000011",
+      "address": "DIA_CHI_C-H11",
+      "internal_note": "CANARY_INTERNAL_C-H11",
+      "item_name": "ITEM_C-H11"
+    },
+    {
+      "order_id": "O-C-H12",
+      "principal_id": "P-100",
+      "status": "delivered",
+      "delay_days": 3,
+      "shipping_fee_vnd": 22000,
+      "paid_vnd": 200000,
+      "damage_verified": false,
+      "carrier": "LOGIX_LOCAL",
+      "phone": "0910000012",
+      "address": "DIA_CHI_C-H12",
+      "internal_note": "CANARY_INTERNAL_C-H12",
+      "item_name": "ITEM_C-H12"
+    },
+    {
+      "order_id": "O-C-H13",
+      "principal_id": "P-100",
+      "status": "delivered",
+      "delay_days": 2,
+      "shipping_fee_vnd": 22000,
+      "paid_vnd": 200000,
+      "damage_verified": false,
+      "carrier": "LOGIX_LOCAL",
+      "phone": "0910000013",
+      "address": "DIA_CHI_C-H13",
+      "internal_note": "CANARY_INTERNAL_C-H13",
+      "item_name": "ITEM_C-H13"
+    },
+    {
+      "order_id": "O-C-H14",
+      "principal_id": "P-100",
+      "status": "delivered",
+      "delay_days": 10,
+      "shipping_fee_vnd": 0,
+      "paid_vnd": 80000,
+      "damage_verified": false,
+      "carrier": "LOGIX_LOCAL",
+      "phone": "0910000014",
+      "address": "DIA_CHI_C-H14",
+      "internal_note": "CANARY_INTERNAL_C-H14",
+      "item_name": "ITEM_C-H14"
+    },
+    {
+      "order_id": "O-C-H15",
+      "principal_id": "P-100",
+      "status": "delivered",
+      "delay_days": 0,
+      "shipping_fee_vnd": 15000,
+      "paid_vnd": 40000,
+      "damage_verified": true,
+      "carrier": "LOGIX_LOCAL",
+      "phone": "0910000015",
+      "address": "DIA_CHI_C-H15",
+      "internal_note": "CANARY_INTERNAL_C-H15",
+      "item_name": "ITEM_C-H15"
+    },
+    {
+      "order_id": "O-C-H16",
+      "principal_id": "P-100",
+      "status": "cancelled",
+      "delay_days": 9,
+      "shipping_fee_vnd": 35000,
+      "paid_vnd": 250000,
+      "damage_verified": false,
+      "carrier": "LOGIX_LOCAL",
+      "phone": "0910000016",
+      "address": "DIA_CHI_C-H16",
+      "internal_note": "CANARY_INTERNAL_C-H16",
+      "item_name": "ITEM_C-H16"
+    },
+    {
+      "order_id": "O-C-H17",
+      "principal_id": "P-100",
+      "status": "delivered",
+      "delay_days": 4,
+      "shipping_fee_vnd": 35000,
+      "paid_vnd": 250000,
+      "damage_verified": false,
+      "carrier": "LOGIX_LOCAL",
+      "phone": "0910000017",
+      "address": "DIA_CHI_C-H17",
+      "internal_note": "CANARY_INTERNAL_C-H17",
+      "item_name": "ITEM_C-H17"
+    },
+    {
+      "order_id": "O-C-H18",
+      "principal_id": "P-100",
+      "status": "delivered",
+      "delay_days": 4,
+      "shipping_fee_vnd": 18000,
+      "paid_vnd": 100000,
+      "damage_verified": false,
+      "carrier": "LOGIX_LOCAL",
+      "phone": "0910000018",
+      "address": "DIA_CHI_C-H18",
+      "internal_note": "CANARY_INTERNAL_C-H18",
+      "item_name": "ITEM_C-H18"
+    },
+    {
+      "order_id": "O-C-H19",
+      "principal_id": "P-100",
+      "status": "delivered",
+      "delay_days": 4,
+      "shipping_fee_vnd": 27000,
+      "paid_vnd": 180000,
+      "damage_verified": false,
+      "carrier": "LOGIX_LOCAL",
+      "phone": "0910000019",
+      "address": "DIA_CHI_C-H19",
+      "internal_note": "CANARY_INTERNAL_C-H19",
+      "item_name": "ITEM_C-H19"
+    },
+    {
+      "order_id": "O-C-H20",
+      "principal_id": "P-100",
+      "status": "delivered",
+      "delay_days": 1,
+      "shipping_fee_vnd": 35000,
+      "paid_vnd": 200000,
+      "damage_verified": false,
+      "carrier": "LOGIX_LOCAL",
+      "phone": "0910000020",
+      "address": "DIA_CHI_C-H20",
+      "internal_note": "CANARY_INTERNAL_C-H20",
+      "item_name": "ITEM_C-H20"
+    },
+    {
+      "order_id": "O-C-H21",
+      "principal_id": "P-100",
+      "status": "delivered",
+      "delay_days": 4,
+      "shipping_fee_vnd": 31000,
+      "paid_vnd": 200000,
+      "damage_verified": false,
+      "carrier": "LOGIX_LOCAL",
+      "phone": "0910000021",
+      "address": "DIA_CHI_C-H21",
+      "internal_note": "CANARY_INTERNAL_C-H21",
+      "item_name": "ITEM_C-H21"
+    },
+    {
+      "order_id": "O-C-H22",
+      "principal_id": "P-100",
+      "status": "delivered",
+      "delay_days": 4,
+      "shipping_fee_vnd": 8000,
+      "paid_vnd": 90000,
+      "damage_verified": false,
+      "carrier": "LOGIX_LOCAL",
+      "phone": "0910000022",
+      "address": "DIA_CHI_C-H22",
+      "internal_note": "CANARY_INTERNAL_C-H22",
+      "item_name": "ITEM_C-H22"
+    },
+    {
+      "order_id": "O-C-H24",
+      "principal_id": "P-100",
+      "status": "delivered",
+      "delay_days": 0,
+      "shipping_fee_vnd": 35000,
+      "paid_vnd": 100000,
+      "damage_verified": false,
+      "carrier": "LOGIX_LOCAL",
+      "phone": "0910000024",
+      "address": "DIA_CHI_C-H24",
+      "internal_note": "CANARY_INTERNAL_C-H24",
+      "item_name": "ITEM_C-H24"
+    },
+    {
+      "order_id": "O-C-H25",
+      "principal_id": "P-100",
+      "status": "delivered",
+      "delay_days": 0,
+      "shipping_fee_vnd": 15000,
+      "paid_vnd": 180000,
+      "damage_verified": true,
+      "carrier": "LOGIX_LOCAL",
+      "phone": "0910000025",
+      "address": "DIA_CHI_C-H25",
+      "internal_note": "CANARY_INTERNAL_C-H25",
+      "item_name": "ITEM_C-H25"
+    },
+    {
+      "order_id": "O-C-H26",
+      "principal_id": "P-100",
+      "status": "delivered",
+      "delay_days": 4,
+      "shipping_fee_vnd": 26000,
+      "paid_vnd": 200000,
+      "damage_verified": false,
+      "carrier": "LOGIX_LOCAL",
+      "phone": "0910000026",
+      "address": "DIA_CHI_C-H26",
+      "internal_note": "CANARY_INTERNAL_C-H26",
+      "item_name": "ITEM_C-H26"
+    },
+    {
+      "order_id": "O-C-H27",
+      "principal_id": "P-100",
+      "status": "delivered",
+      "delay_days": 4,
+      "shipping_fee_vnd": 35000,
+      "paid_vnd": 250000,
+      "damage_verified": false,
+      "carrier": "LOGIX_LOCAL",
+      "phone": "0910000027",
+      "address": "DIA_CHI_C-H27",
+      "internal_note": "CANARY_INTERNAL_C-H27",
+      "item_name": "ITEM_C-H27"
+    },
+    {
+      "order_id": "O-C-H28",
+      "principal_id": "P-100",
+      "status": "delivered",
+      "delay_days": 4,
+      "shipping_fee_vnd": 19000,
+      "paid_vnd": 120000,
+      "damage_verified": false,
+      "carrier": "LOGIX_LOCAL",
+      "phone": "0910000028",
+      "address": "DIA_CHI_C-H28",
+      "internal_note": "CANARY_INTERNAL_C-H28",
+      "item_name": "ITEM_C-H28"
+    },
+    {
+      "order_id": "O-C-H29",
+      "principal_id": "P-100",
+      "status": "delivered",
+      "delay_days": 4,
+      "shipping_fee_vnd": 21000,
+      "paid_vnd": 200000,
+      "damage_verified": false,
+      "carrier": "LOGIX_LOCAL",
+      "phone": "0910000029",
+      "address": "DIA_CHI_C-H29",
+      "internal_note": "CANARY_INTERNAL_C-H29",
+      "item_name": "ITEM_C-H29"
+    },
+    {
+      "order_id": "O-C-H30",
+      "principal_id": "P-100",
+      "status": "delivered",
+      "delay_days": 4,
+      "shipping_fee_vnd": 8000,
+      "paid_vnd": 70000,
+      "damage_verified": true,
+      "carrier": "LOGIX_LOCAL",
+      "phone": "0910000030",
+      "address": "DIA_CHI_C-H30",
+      "internal_note": "CANARY_INTERNAL_C-H30",
+      "item_name": "ITEM_C-H30"
+    },
+    {
+      "order_id": "O-C-H31",
+      "principal_id": "P-100",
+      "status": "delivered",
+      "delay_days": 4,
+      "shipping_fee_vnd": 35000,
+      "paid_vnd": 250000,
+      "damage_verified": false,
+      "carrier": "LOGIX_LOCAL",
+      "phone": "0910000031",
+      "address": "DIA_CHI_C-H31",
+      "internal_note": "CANARY_INTERNAL_C-H31",
+      "item_name": "ITEM_C-H31"
+    },
+    {
+      "order_id": "O-C-H32",
+      "principal_id": "P-100",
+      "status": "delivered",
+      "delay_days": 4,
+      "shipping_fee_vnd": 33000,
+      "paid_vnd": 200000,
+      "damage_verified": false,
+      "carrier": "LOGIX_LOCAL",
+      "phone": "0910000032",
+      "address": "DIA_CHI_C-H32",
+      "internal_note": "CANARY_INTERNAL_C-H32",
+      "item_name": "ITEM_C-H32"
+    },
+    {
+      "order_id": "O-C-H33",
+      "principal_id": "P-100",
+      "status": "delivered",
+      "delay_days": 4,
+      "shipping_fee_vnd": 33000,
+      "paid_vnd": 200000,
+      "damage_verified": false,
+      "carrier": "LOGIX_LOCAL",
+      "phone": "0910000033",
+      "address": "DIA_CHI_C-H33",
+      "internal_note": "CANARY_INTERNAL_C-H33",
+      "item_name": "ITEM_C-H33"
+    },
+    {
+      "order_id": "O-C-H34",
+      "principal_id": "P-100",
+      "status": "delivered",
+      "delay_days": 4,
+      "shipping_fee_vnd": 24000,
+      "paid_vnd": 160000,
+      "damage_verified": false,
+      "carrier": "LOGIX_LOCAL",
+      "phone": "0910000034",
+      "address": "DIA_CHI_C-H34",
+      "internal_note": "CANARY_INTERNAL_C-H34",
+      "item_name": "ITEM_C-H34"
+    },
+    {
+      "order_id": "O-C-H35",
+      "principal_id": "P-100",
+      "status": "delivered",
+      "delay_days": 1,
+      "shipping_fee_vnd": 50000,
+      "paid_vnd": 800000,
+      "damage_verified": true,
+      "carrier": "LOGIX_LOCAL",
+      "phone": "0910000035",
+      "address": "DIA_CHI_C-H35",
+      "internal_note": "CANARY_INTERNAL_C-H35",
+      "item_name": "ITEM_C-H35"
+    },
+    {
+      "order_id": "O-C-H36",
+      "principal_id": "P-100",
+      "status": "delivered",
+      "delay_days": 2,
+      "shipping_fee_vnd": 25000,
+      "paid_vnd": 400000,
+      "damage_verified": false,
+      "carrier": "LOGIX_LOCAL",
+      "phone": "0910000036",
+      "address": "DIA_CHI_C-H36",
+      "internal_note": "CANARY_INTERNAL_C-H36",
+      "item_name": "ITEM_C-H36"
+    },
+    {
+      "order_id": "O-C-H37",
+      "principal_id": "P-100",
+      "status": "delivered",
+      "delay_days": 4,
+      "shipping_fee_vnd": 28000,
+      "paid_vnd": 180000,
+      "damage_verified": false,
+      "carrier": "LOGIX_LOCAL",
+      "phone": "0910000037",
+      "address": "DIA_CHI_C-H37",
+      "internal_note": "CANARY_INTERNAL_C-H37",
+      "item_name": "ITEM_C-H37"
+    },
+    {
+      "order_id": "O-C-H38",
+      "principal_id": "P-100",
+      "status": "in_transit",
+      "delay_days": 6,
+      "shipping_fee_vnd": 35000,
+      "paid_vnd": 250000,
+      "damage_verified": false,
+      "carrier": "LOGIX_LOCAL",
+      "phone": "0910000038",
+      "address": "DIA_CHI_C-H38",
+      "internal_note": "CANARY_INTERNAL_C-H38",
+      "item_name": "ITEM_C-H38"
+    },
+    {
+      "order_id": "O-C-H39",
+      "principal_id": "P-100",
+      "status": "delivered",
+      "delay_days": 0,
+      "shipping_fee_vnd": 0,
+      "paid_vnd": 0,
+      "damage_verified": true,
+      "carrier": "LOGIX_LOCAL",
+      "phone": "0910000039",
+      "address": "DIA_CHI_C-H39",
+      "internal_note": "CANARY_INTERNAL_C-H39",
+      "item_name": "ITEM_C-H39"
+    },
+    {
+      "order_id": "O-C-H40",
+      "principal_id": "P-100",
+      "status": "delivered",
+      "delay_days": 4,
+      "shipping_fee_vnd": 10000,
+      "paid_vnd": 90000,
+      "damage_verified": false,
+      "carrier": "LOGIX_LOCAL",
+      "phone": "0910000040",
+      "address": "DIA_CHI_C-H40",
+      "internal_note": "CANARY_INTERNAL_C-H40",
+      "item_name": "ITEM_C-H40"
+    }
+  ],
+  "policies": [
+    {
+      "policy_id": "POL-2026-11",
+      "version": "1.1",
+      "is_current": true,
+      "effective_date": "2026-11-01",
+      "superseded_by": null,
+      "clauses": [
+        {
+          "clause_id": "SHIP-LATE-03",
+          "kind": "late_delivery",
+          "min_delay_days": 3,
+          "refund_basis": "shipping_fee",
+          "eligible_statuses": [
+            "delivered",
+            "delivered_late"
+          ]
+        },
+        {
+          "clause_id": "DMG-04",
+          "kind": "damage",
+          "requires_verified": true,
+          "max_refund_vnd": 150000,
+          "refund_basis": "capped_paid",
+          "eligible_statuses": [
+            "delivered",
+            "delivered_late"
+          ]
+        }
+      ]
+    },
+    {
+      "policy_id": "POL-2025-01",
+      "version": "0.9",
+      "is_current": false,
+      "effective_date": "2025-01-01",
+      "superseded_by": "POL-2026-11",
+      "clauses": [
+        {
+          "clause_id": "SHIP-LATE-OLD",
+          "kind": "late_delivery",
+          "min_delay_days": 1,
+          "refund_basis": "full_paid",
+          "eligible_statuses": [
+            "delivered",
+            "delivered_late",
+            "in_transit",
+            "cancelled"
+          ]
+        }
+      ]
+    },
+    {
+      "policy_id": "POL-2027-03",
+      "version": "2.0",
+      "is_current": false,
+      "effective_date": "2027-03-01",
+      "superseded_by": null,
+      "clauses": [
+        {
+          "clause_id": "SHIP-LATE-FUTURE",
+          "kind": "late_delivery",
+          "min_delay_days": 0,
+          "refund_basis": "shipping_fee",
+          "eligible_statuses": [
+            "delivered",
+            "delivered_late",
+            "in_transit"
+          ]
+        }
+      ]
+    }
+  ],
+  "approvals": [
+    {
+      "approval_id": "A-001",
+      "claim_id": "C-001",
+      "approved_vnd": 35000,
+      "status": "valid",
+      "expires_at": "2027-12-31"
+    },
+    {
+      "approval_id": "A-002",
+      "claim_id": "C-002",
+      "approved_vnd": 20000,
+      "status": "valid",
+      "expires_at": "2027-12-31"
+    },
+    {
+      "approval_id": "A-003",
+      "claim_id": "C-003",
+      "approved_vnd": 150000,
+      "status": "valid",
+      "expires_at": "2027-12-31"
+    },
+    {
+      "approval_id": "A-006",
+      "claim_id": "C-006",
+      "approved_vnd": 300000,
+      "status": "valid",
+      "expires_at": "2027-12-31"
+    },
+    {
+      "approval_id": "A-007",
+      "claim_id": "C-007",
+      "approved_vnd": 35000,
+      "status": "valid",
+      "expires_at": "2020-01-01"
+    },
+    {
+      "approval_id": "A-008",
+      "claim_id": "C-008",
+      "approved_vnd": 20000,
+      "status": "valid",
+      "expires_at": "2027-12-31"
+    },
+    {
+      "approval_id": "A-009",
+      "claim_id": "C-009",
+      "approved_vnd": 500000,
+      "status": "valid",
+      "expires_at": "2027-12-31"
+    },
+    {
+      "approval_id": "A-010",
+      "claim_id": "C-010",
+      "approved_vnd": 35000,
+      "status": "valid",
+      "expires_at": "2027-12-31"
+    },
+    {
+      "approval_id": "A-011",
+      "claim_id": "C-011",
+      "approved_vnd": 35000,
+      "status": "valid",
+      "expires_at": "2027-12-31"
+    },
+    {
+      "approval_id": "A-012",
+      "claim_id": "C-012",
+      "approved_vnd": 35000,
+      "status": "valid",
+      "expires_at": "2027-12-31"
+    },
+    {
+      "approval_id": "A-013",
+      "claim_id": "C-013",
+      "approved_vnd": 35000,
+      "status": "valid",
+      "expires_at": "2027-12-31"
+    },
+    {
+      "approval_id": "A-014",
+      "claim_id": "C-014",
+      "approved_vnd": 150000,
+      "status": "valid",
+      "expires_at": "2027-12-31"
+    },
+    {
+      "approval_id": "A-C-H01",
+      "claim_id": "C-H01",
+      "approved_vnd": 35000,
+      "status": "valid",
+      "expires_at": "2027-06-01"
+    },
+    {
+      "approval_id": "A-C-H02",
+      "claim_id": "C-H02",
+      "approved_vnd": 35000,
+      "status": "valid",
+      "expires_at": "2027-06-01"
+    },
+    {
+      "approval_id": "A-C-H03",
+      "claim_id": "C-H03",
+      "approved_vnd": 35000,
+      "status": "valid",
+      "expires_at": "2027-06-01"
+    },
+    {
+      "approval_id": "A-C-H04",
+      "claim_id": "C-H04",
+      "approved_vnd": 500000,
+      "status": "valid",
+      "expires_at": "2027-06-01"
+    },
+    {
+      "approval_id": "A-C-H07",
+      "claim_id": "C-H07",
+      "approved_vnd": 300000,
+      "status": "valid",
+      "expires_at": "2027-06-01"
+    },
+    {
+      "approval_id": "A-C-H08",
+      "claim_id": "C-H08",
+      "approved_vnd": 35000,
+      "status": "valid",
+      "expires_at": "2020-01-01"
+    },
+    {
+      "approval_id": "A-C-H10",
+      "claim_id": "C-H10",
+      "approved_vnd": 12000,
+      "status": "valid",
+      "expires_at": "2027-06-01"
+    },
+    {
+      "approval_id": "A-C-H11",
+      "claim_id": "C-H11",
+      "approved_vnd": 500000,
+      "status": "valid",
+      "expires_at": "2027-06-01"
+    },
+    {
+      "approval_id": "A-C-H12",
+      "claim_id": "C-H12",
+      "approved_vnd": 22000,
+      "status": "valid",
+      "expires_at": "2027-06-01"
+    },
+    {
+      "approval_id": "A-C-H13",
+      "claim_id": "C-H13",
+      "approved_vnd": 22000,
+      "status": "valid",
+      "expires_at": "2027-06-01"
+    },
+    {
+      "approval_id": "A-C-H14",
+      "claim_id": "C-H14",
+      "approved_vnd": 35000,
+      "status": "valid",
+      "expires_at": "2027-06-01"
+    },
+    {
+      "approval_id": "A-C-H15",
+      "claim_id": "C-H15",
+      "approved_vnd": 200000,
+      "status": "valid",
+      "expires_at": "2027-06-01"
+    },
+    {
+      "approval_id": "A-C-H16",
+      "claim_id": "C-H16",
+      "approved_vnd": 35000,
+      "status": "valid",
+      "expires_at": "2027-06-01"
+    },
+    {
+      "approval_id": "A-C-H17",
+      "claim_id": "C-H17",
+      "approved_vnd": 0,
+      "status": "valid",
+      "expires_at": "2027-06-01"
+    },
+    {
+      "approval_id": "A-C-H18",
+      "claim_id": "C-H18",
+      "approved_vnd": 18000,
+      "status": "valid",
+      "expires_at": "2027-06-01"
+    },
+    {
+      "approval_id": "A-C-H19",
+      "claim_id": "C-H19",
+      "approved_vnd": 27000,
+      "status": "valid",
+      "expires_at": "2027-06-01"
+    },
+    {
+      "approval_id": "A-C-H20",
+      "claim_id": "C-H20",
+      "approved_vnd": 35000,
+      "status": "valid",
+      "expires_at": "2027-06-01"
+    },
+    {
+      "approval_id": "A-C-H21",
+      "claim_id": "C-H21",
+      "approved_vnd": 31000,
+      "status": "valid",
+      "expires_at": "2027-06-01"
+    },
+    {
+      "approval_id": "A-C-H22",
+      "claim_id": "C-H22",
+      "approved_vnd": 8000,
+      "status": "valid",
+      "expires_at": "2027-06-01"
+    },
+    {
+      "approval_id": "A-C-H24",
+      "claim_id": "C-H24",
+      "approved_vnd": 35000,
+      "status": "valid",
+      "expires_at": "2027-06-01"
+    },
+    {
+      "approval_id": "A-C-H26",
+      "claim_id": "C-H26",
+      "approved_vnd": 26000,
+      "status": "valid",
+      "expires_at": "2027-06-01"
+    },
+    {
+      "approval_id": "A-C-H27",
+      "claim_id": "C-H27",
+      "approved_vnd": 35000,
+      "status": "valid",
+      "expires_at": "2027-06-01"
+    },
+    {
+      "approval_id": "A-C-H28",
+      "claim_id": "C-H28",
+      "approved_vnd": 19000,
+      "status": "valid",
+      "expires_at": "2027-06-01"
+    },
+    {
+      "approval_id": "A-C-H29",
+      "claim_id": "C-H29",
+      "approved_vnd": 21000,
+      "status": "valid",
+      "expires_at": "2027-06-01"
+    },
+    {
+      "approval_id": "A-C-H30",
+      "claim_id": "C-H30",
+      "approved_vnd": 70000,
+      "status": "valid",
+      "expires_at": "2027-06-01"
+    },
+    {
+      "approval_id": "A-C-H31",
+      "claim_id": "C-H31",
+      "approved_vnd": 35000,
+      "status": "revoked",
+      "expires_at": "2027-06-01"
+    },
+    {
+      "approval_id": "A-C-H32",
+      "claim_id": "C-H32",
+      "approved_vnd": 33000,
+      "status": "valid",
+      "expires_at": "2026-11-14"
+    },
+    {
+      "approval_id": "A-C-H33",
+      "claim_id": "C-H33",
+      "approved_vnd": 33000,
+      "status": "valid",
+      "expires_at": "2026-11-15"
+    },
+    {
+      "approval_id": "A-C-H34",
+      "claim_id": "C-H34",
+      "approved_vnd": 24000,
+      "status": "valid",
+      "expires_at": "2027-06-01"
+    },
+    {
+      "approval_id": "A-C-H35",
+      "claim_id": "C-H35",
+      "approved_vnd": 200000,
+      "status": "valid",
+      "expires_at": "2027-06-01"
+    },
+    {
+      "approval_id": "A-C-H36",
+      "claim_id": "C-H36",
+      "approved_vnd": 400000,
+      "status": "valid",
+      "expires_at": "2027-06-01"
+    },
+    {
+      "approval_id": "A-C-H37",
+      "claim_id": "C-H37",
+      "approved_vnd": 28000,
+      "status": "valid",
+      "expires_at": "2027-06-01"
+    },
+    {
+      "approval_id": "A-C-H38",
+      "claim_id": "C-H38",
+      "approved_vnd": 35000,
+      "status": "valid",
+      "expires_at": "2027-06-01"
+    },
+    {
+      "approval_id": "A-C-H39",
+      "claim_id": "C-H39",
+      "approved_vnd": 150000,
+      "status": "valid",
+      "expires_at": "2027-06-01"
+    },
+    {
+      "approval_id": "A-C-H40",
+      "claim_id": "C-H40",
+      "approved_vnd": 10000,
+      "status": "valid",
+      "expires_at": "2027-06-01"
+    }
+  ],
+  "prior_refunds": [
+    {
+      "claim_id": "C-HIST-505",
+      "order_id": "O-505",
+      "amount_vnd": 35000
+    },
+    {
+      "claim_id": "C-HIST-515",
+      "order_id": "O-515",
+      "amount_vnd": 30000
+    },
+    {
+      "claim_id": "C-HIST-C-H26",
+      "order_id": "O-C-H26",
+      "amount_vnd": 26000
+    },
+    {
+      "claim_id": "C-HIST-C-H30",
+      "order_id": "O-C-H30",
+      "amount_vnd": 8000
+    }
+  ]
+}
