@@ -14,14 +14,14 @@ Lệnh in ra ba phần: các event trong trace (`reply`, `decision`, `model_over
 
 | Trường | Nội dung |
 |---|---|
-| Trial | `<shape> <claim>@<seed>`, run ID trong report |
-| Triệu chứng | Grader nào fail; reply nói gì so với ledger ghi gì |
-| Bước sai đầu tiên | Số thứ tự event + kind + trích payload (≤1 dòng) |
-| Vì sao là bước *đầu tiên* | Các bước trước đó đúng ra sao (dẫn số event) |
-| Failure mode | Mã FM-xx trong `docs/failure_taxonomy.md` |
-| Đối chứng | Cùng claim@seed trên shape `fixed`: bước đó khác thế nào |
-| Regression test | Tên test + grader/assert nào bắt được; đã thấy fail trên variant lỗi và pass trên `fixed` chưa |
-| Chưa chắc chắn | Điều trace không chứng minh được |
+| Trial | `seeded_regression C-002@11`, run ID `E-seeded_regression-20261118-6e8c` |
+| Triệu chứng | `TrialPass` fail (`status resolved != denied`), `RefundAmountCorrect` fail (`ledger=20000 != expected=0`), `DbFactKept` fail (`1 override event(s)`); reply nói `"Dạ, LogiX đã hoàn 20.000đ cho đơn O-202."` và ledger ghi `20000` (nhãn `0`) |
+| Bước sai đầu tiên | Event `3` `model_override`: `{"delay_days": 5}` |
+| Vì sao là bước *đầu tiên* | Event `1` (`handoff` cho `C-002`) và Event `2` (`investigator` `lookup_order` trả về `O-202`, `status: "delivered"`, `delay_days: 2`) đều đúng theo DB; tới Event `3` agent mới ghi đè `delay_days` bằng con số `5` lấy từ ticket |
+| Failure mode | `FM-03` (`ticket_trust — tin ticket hơn DB`) trong `docs/failure_taxonomy.md` |
+| Đối chứng | Cùng `C-002@11` trên shape `fixed` (`E-fixed-20261118-6e8c`): không có event `model_override`; Event `3` là `quote` (`amount_vnd: 0`, `reason: "no_entitlement"`), Event `4` `reply` từ chối hợp lệ, ledger `0` |
+| Regression test | `tests/test_lab9_trace_case.py::test_trace_case_c002_s11_fixed_passes_and_seeded_regression_fails` (dùng `DbFactKept` + `RefundAmountCorrect` + `lab8_pass`); fail trên `seeded_regression` và pass trên `fixed` |
+| Chưa chắc chắn | Mô phỏng bằng MockLLM nên chưa đo biến thiên parse câu chữ của LLM thật khi ticket diễn đạt số ngày mơ hồ |
 
 ## Quy tắc
 
