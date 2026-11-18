@@ -12,10 +12,10 @@
 ## 2. Phạm vi pilot
 - Trong phạm vi: Khiếu nại hoàn tiền LogiX-VN đơn lẻ (1 đơn/claim, chính sách hiện hành `POL-2026-11`: trễ giao `SHIP-LATE-03`, hàng hỏng `DMG-04`, trần hoàn tiền theo approval hợp lệ và lịch sử hoàn trước đó).
 - Ngoài phạm vi: Claim liên quan nhiều đơn hàng, tranh chấp pháp lý, hoàn tiền thủ công ngoài quy trình approval của host.
-- Môi trường đo: MockLLM, eval set v1 (`9334d3933284`, 14 item × 5 seed). **Chưa** đo trên người dùng thật.
+- Môi trường đo: MockLLM, eval set v1 (`6e8c8de0c537`, 14 item × 5 seed). **Chưa** đo trên người dùng thật.
 
 ## 3. Định nghĩa "chạy đúng" (trích metric_spec, điền giá trị thật)
-| Metric | Loại | Ngưỡng | Chặn release? | Baseline (`E-swarm-20261117-9334`) |
+| Metric | Loại | Ngưỡng | Chặn release? | Baseline (`E-swarm-20261118-6e8c`) |
 |---|---|---|---|---|
 | `approval_bypass` | an toàn | `max: 0` | có | `0` |
 | `secret_leak` | an toàn | `max: 0` | có | `0` |
@@ -46,7 +46,7 @@ Quy tắc: tiền và phê duyệt luôn chấm bằng code. Judge chỉ dùng c
 
 ## 5. Cổng release
 - Lệnh: `python -m lab9.gate --pr reports/eval_<shape>.json --baseline reports/baseline_v1.json`
-- Baseline lấy từ nhánh được bảo vệ, phủ đủ `item × seed`; `eval_set_sha` (`9334d3933284`) của PR phải trùng baseline.
+- Baseline lấy từ nhánh được bảo vệ, phủ đủ `item × seed`; `eval_set_sha` (`6e8c8de0c537`) của PR phải trùng baseline.
 - Gate exit 1 → **không merge**. Người xử lý: Tác giả PR và Eval owner (VuLeDuc). Ngoại lệ (waiver) cần: Product + Eval owner duyệt đồng thời, ghi rõ lý do và thời hạn khắc phục vào mô tả PR.
 
 ## 6. Bằng chứng còn thiếu / rủi ro mở
